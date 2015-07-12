@@ -7,5 +7,7 @@ while True:
     line = file_in.readline()  
     if line:  
         print (line) 
+    else:  
+        break
 
 file_in.close()  
